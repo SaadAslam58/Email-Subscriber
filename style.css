@@ -32,7 +32,6 @@
 }
 
 form {
-    background-color: #fff;
     display: flex;
     width: fit-content;
 }
@@ -43,7 +42,9 @@ form input {
     border: 0;
     outline: none;
     height: 70px;
-    width: 350px;
+    width: 320px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
 }
 
 form button {
@@ -53,6 +54,8 @@ form button {
     height: 70px;
     width: 70px;
     cursor: pointer;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 span {
